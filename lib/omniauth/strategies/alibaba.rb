@@ -20,7 +20,7 @@ module OmniAuth
         :parse          => :json
       }
 
-      uid { access_token.params['uid'] }
+      uid { access_token.params['memberId'] }
 
       info do
         {
